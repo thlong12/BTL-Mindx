@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #2b2727;
+}
+
+header {
+    display: flex;
+    height: 56px;
+    width: 100%;
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+section a {
+    padding: 0 15px;
+    margin: 0 15px;
+}
+.logo img {
+    width: 136px;
+    height: 52px;
+    padding: 8px 12px;
+}
+
+
+.nav-bar a {
+    font-size: 20px;
+    color: #fff;
+    justify-content: flex-start;
+}
+
+.right-side {
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search {
+    display: flex;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
+    width: 100%;
+    margin-left: 10px;
+    border: none;
+    background-color: #2b2727;
+    color: #fff;
+}
+
+.fa-search {
+    margin-right: 10px;
+}
+
+.btn {
+    width: 150px;
+    height: 36px;
+    background-color: #cf2122;
+    margin: 0 50px 0 15px;
+    border-color: transparent;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.content h2 {
+    color: #b1a21e;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 48px;
+}
+.movies-container {
+    position: relative;
+    padding: 48px 200px;
+}
+.movies-list {
+    display: flex;
+}
+.movies-item img {
+    width: 276px;
+    height: 414px;
+}
+
+.movies-item {
+    position: relative;
+    padding: 12px 8px;
+    display: flex;
+    justify-content: center;
+}
+.movies-container a{
+    color: #fff;
+}
+.name-vi{
+    position: absolute;
+    padding-top: 417px;
+}
+
+.name-en{
+    position: absolute;
+    padding-top: 438px;
+}
+.name-en a{
+    color: #7a7a7a;
+}
+
+.footer {
+    background: url(https://xemphim.vip/static/skin/footer-bg.jpg);
+}
+
+.footer {
+    padding: 3rem 1.5rem 6rem;
+}
+.text {
+    color: lightgrey;
+}
+.footer a{
+    color: #428bca;
+}
